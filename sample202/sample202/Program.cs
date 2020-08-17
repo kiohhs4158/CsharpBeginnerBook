@@ -21,7 +21,6 @@ namespace sample202
             Console.WriteLine("{0} + {1} = {2}", a, b, add);
             Console.WriteLine("{0} - {1} = {2}", a, b, sub);
             Console.WriteLine("{0}と{1}の平均は{2}", a, b, avg);
-
         }
     }
 }
