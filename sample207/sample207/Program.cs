@@ -14,7 +14,9 @@ namespace sample207
             double a = double.Parse(Console.ReadLine());
             Console.WriteLine("a = " + a);
             if (a > 0)
+            {
                 Console.WriteLine("入力された値は正の数です");
+            }
         }
     }
 }
