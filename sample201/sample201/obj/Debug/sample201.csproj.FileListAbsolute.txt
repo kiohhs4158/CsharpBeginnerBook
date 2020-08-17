@@ -1,0 +1,6 @@
+D:\CsharpBeginnerBook\sample201\sample201\bin\Debug\sample201.exe.config
+D:\CsharpBeginnerBook\sample201\sample201\bin\Debug\sample201.exe
+D:\CsharpBeginnerBook\sample201\sample201\bin\Debug\sample201.pdb
+D:\CsharpBeginnerBook\sample201\sample201\obj\Debug\sample201.csprojAssemblyReference.cache
+D:\CsharpBeginnerBook\sample201\sample201\obj\Debug\sample201.exe
+D:\CsharpBeginnerBook\sample201\sample201\obj\Debug\sample201.pdb
