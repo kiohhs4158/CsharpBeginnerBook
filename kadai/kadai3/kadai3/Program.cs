@@ -15,7 +15,7 @@ namespace kadai3
                 for (int j = 1; j <= 9; j++)
                 {
                     int ans = i * j;
-                    Console.Write(ans + " ");
+                    Console.Write("{0, 2:d} ", ans);
                 }
                 Console.WriteLine();
             }
