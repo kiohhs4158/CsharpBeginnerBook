@@ -1,5 +1,0 @@
-D:\CsharpBeginnerBook\sample102\sample102\bin\Debug\sample102.exe.config
-D:\CsharpBeginnerBook\sample102\sample102\bin\Debug\sample102.exe
-D:\CsharpBeginnerBook\sample102\sample102\bin\Debug\sample102.pdb
-D:\CsharpBeginnerBook\sample102\sample102\obj\Debug\sample102.exe
-D:\CsharpBeginnerBook\sample102\sample102\obj\Debug\sample102.pdb
