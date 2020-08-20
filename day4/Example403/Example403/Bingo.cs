@@ -10,6 +10,13 @@ namespace Example403
     {
         private int[,] card;
         private int size;
+        public Bingo() : this(5)
+        {
+        }
+        public Bingo(int size)
+        {
+            Init(size);
+        }
         private void Clear()
         {
             for (int i = 0; i < card.GetLength(0); i++)
