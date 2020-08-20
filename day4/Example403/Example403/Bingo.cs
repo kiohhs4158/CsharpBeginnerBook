@@ -8,11 +8,10 @@ namespace Example403
 {
     class Bingo
     {
-        public int[,] card;
-
-        public void Init(int size)
+        private int[,] card;
+        private int size;
+        private void Clear()
         {
-            card = new int[size, size];
             for (int i = 0; i < card.GetLength(0); i++)
             {
                 for (int j = 0; j < card.GetLength(1); j++)
@@ -20,6 +19,9 @@ namespace Example403
                     card[i, j] = 0;
                 }
             }
+        }
+        private void Shuffle()
+        {
             Random rnd = new Random();
             int num = 1;
             while (num <= size * size)
@@ -36,6 +38,13 @@ namespace Example403
                     }
                 }
             }
+        }
+        public void Init(int size)
+        {   
+            this.size = size;
+            card = new int[size, size];
+            Clear();
+            Shuffle();
         }
         public void Show()
         {

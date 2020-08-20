@@ -13,9 +13,9 @@ namespace Example401
             Rectangle r;
             r = new Rectangle();
             Console.Write("幅（cm）");
-            r.width = double.Parse(Console.ReadLine());
+            r.Width = double.Parse(Console.ReadLine());
             Console.Write("高さ（cm）");
-            r.height = double.Parse(Console.ReadLine());
+            r.Height = double.Parse(Console.ReadLine());
             double area = r.GetArea();
             double perimeter = r.GetPerimeter();
             Console.WriteLine("面積：{0}cm2", area);

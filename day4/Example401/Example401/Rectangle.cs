@@ -8,8 +8,8 @@ namespace Example401
 {
     class Rectangle
     {
-        public double width = 0;
-        public double height = 0;
+        private double width = 0;
+        private double height = 0;
 
         public double GetArea()
         {
@@ -20,5 +20,17 @@ namespace Example401
         {
             return (width + height) * 2;
         } 
+
+        public double Width
+        {
+            set { width = value; }
+            get { return width; }
+        }
+
+         public double Height
+        {
+            set { height = value; }
+            get { return height; }
+        }
     }
 }
